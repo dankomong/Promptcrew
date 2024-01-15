@@ -5,11 +5,14 @@ import User from '@models/user';
 import { connectToDB } from '@utils/database';
 
 // Every Next.js route is known as a serverless route.
+
 // So a function like signIn is a lambda function that opens up only when
 // it gets called. 
+
 // Every time it gets called, it needs to spin up the server and make
 // a connection to the db which is great bc we don't have to keep our server
 // running constantly.
+
 // But we do have to make a connection to our db first.
 // Check out next-auth documentation.
 
